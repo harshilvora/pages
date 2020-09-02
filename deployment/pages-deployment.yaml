@@ -20,7 +20,7 @@ spec:
         tier: service
     spec:
       containers:
-        - image: nikhil7467/pages:monitor
+        - image: nikhil7467/pages:distributed
           name: pages
           ports:
             - containerPort: 8080
